@@ -54,7 +54,7 @@ class ComplaintManager:
         wise.fund_transfer(transaction_data["transfer_id"])
         ses.send_mail(
             "Complaint approved!",
-            ["ines.iv.ivanova@gmail.com"],
+            ["aadilferoze@hotmail.com"],
             "Congrats! Your claim is approved, check your bank account in 2 days for your refund",
         )
 
